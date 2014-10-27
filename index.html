@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>HTML Modularisation</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=792, user-scalable=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://www.w3.org/2014/shower/shower/themes/w3c/styles/screen.css">
+    <style>
+        #Cover h2, #Cover2 h2 {
+            bottom: 24px;
+            color: #FFF;
+            font-size: 42px; /* Edit this to change the cover text size */
+            margin: 0;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+        }
+        #Cover img, #Cover2 img {
+            height: 640px;
+            width: 1024px;
+        }
+        .slide:after {
+            top: 11px;
+            right: 109px;
+            width: 80px;
+            height: 89px;
+            background: url(http://www.w3.org/2014/Talks/shower-tpac2014/pictures/TPAC_Slides_2014_logo.svg) no-repeat;
+            background-size: 80px 89px;
+            content: '';
+        }
+        .full .progress div {
+            border-bottom-color:#154c80;
+        }
+    </style>
+</head>
+<body class="list">
+  <header class="caption">
+    <h1>HTML Modularisation</h1>
+    <p>W3C</p>
+  </header>
+  <section class="slide cover" id="Cover">
+        <h2>HTML Modularisation, Sam Ruby &amp; Robin Berjon</h2><div>
+        <img src="http://www.w3.org/2014/Talks/shower-tpac2014/pictures/TPAC_Slides_2014-Cover.svg" alt="TPAC 2014 logo with fancy background.">
+  </div></section>
+  <section class="slide"><div>
+    <h2>Cunningham's Law</h2>
+    <figure>
+      <blockquote>
+        <p>The best way to get the right answer on the Internet is not to ask a question, it's to
+        post the wrong answer.</p>
+      </blockquote>
+      <figcaption><a href='http://meta.wikimedia.org/wiki/Cunningham%27s_Law'>http://meta.wikimedia.org/wiki/Cunningham%27s_Law</a></figcaption>
+    </figure>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Magic &amp; Innovation</h2>
+    <ul>
+      <li>Developers build most of the Web's Magic</li>
+      <li><a href='http://extensiblewebmanifesto.org/'>Extensible Web Manifesto</a> (http://extensiblewebmanifesto.org/)</li>
+      <li>Greater inclusiveness</li>
+      <li>Greater participation</li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Tooling &amp; Agility</h2>
+    <p class="note">The way people work has evolved over time.</p>
+    <ul>
+      <li><strong>XXth century</strong>: CVS + patches over email</li>
+      <li><strong>2000</strong>: SVN + heavyweight branches</li>
+      <li><strong>Today</strong>: git + pull requests</li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Software Development</h2>
+    <p class="note">A lot of experience from software development can inspire us.</p>
+    <ul>
+      <li>Supports both regular releases and bleeding edge version</li>
+      <li>Good processes to support contribution from broad base</li>
+      <li>Familiar to a potentially huge contributors' base</li>
+    </ul>
+  </div></section>
+  <section class="slide"><div>
+    <h2>The Unix Philosophy</h2>
+    <figure>
+      <blockquote>
+        <p>This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together.</p>
+      </blockquote>
+      <figcaption>Doug McIlroy</figcaption>
+    </figure>
+  </div></section>
+  <section class="slide"><div>
+    <h2>Modularisation</h2>
+    <ul>
+      <li>It is hard</li>
+      <li>It is work</li>
+      <li>It is useful and powerful</li>
+      <li>There are solutions to handle it</li>
+    </ul>
+    <p class="note">We are not thinking about the same thing as XHTML Modularisation was.</p>
+  </div></section>
+  <section class="slide shout"><div>
+    <h2>Questions?</h2>
+  </div></section>
+  <section class="slide cover" id="Cover2">
+      <h2>Thank you for listening!</h2><div>
+      <img src="http://www.w3.org/2014/Talks/shower-tpac2014/pictures/TPAC_Slides_2014-Cover.svg" alt="TPAC 2014 logo with fancy background.">
+  </div></section>
+    
+  <div class="progress"><div></div></div>
+  <script src="https://www.w3.org/2014/shower/shower/shower.min.js"></script>
+  <!-- Shower Presentation Engine available here: http://shwr.me -->
+</body>
+</html>
